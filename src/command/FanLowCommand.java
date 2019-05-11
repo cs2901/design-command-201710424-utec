@@ -1,9 +1,9 @@
 package command;
 
-public class CellingFanLowCommand implements Command {
+public class FanLowCommand implements Command {
     Fan fan;
 
-    public CellingFanLowCommand(Fan fan) {
+    public FanLowCommand(Fan fan) {
         this.fan = fan;
     }
 
